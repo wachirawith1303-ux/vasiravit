@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp Tong888</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .head{
+            background-color: rgb(64, 245, 57);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg sticky-top head shadow">
+        <div class="container">
+            <a href="index.html"><img src="img/logo.png" width="80%"></a>
+            <ul class="nav">
+                <li class="text-center">
+                    <a href="index.html" class="nav-link text-secondary">หน้าหลัก</a>
+                </li>
+                <li class="text-center">
+                    <a href="#hee" class="nav-link text-secondary">ข่าว</a>
+                </li>
+                <li class="text-center">
+                    <a href="#kuy" class="nav-link text-secondary">Product</a>
+                </li>
+                <li class="text-center">
+                    <a href="user.html" class="nav-link text-secondary">@ doctor hunsen</a>
+                </li>
+            </ul>
+             <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <button type="button" class="navbar navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--------แบนเนอร์----------->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/004.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/003.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/002.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <!---ข่าว---->
+    <div class="container" id="#hee">
+        <div class="row">
+            <div class="col-12 col-md-8 col-xl-7 col-xll-7">
+                <div class="mt-1">
+                    <font size="+2" color="green"> | ข่าววันนี้</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td><img src="img/hun.jpg" width=""></td>
+                                <td>
+                                    <p><h5>รหัสนักศึกษา : 11111111111</h5></p>
+                                    <p><h5>hun manet</h5></p>
+                                    <p><h5>แผนก หลอกลวงปชช</h5></p>
+                                    <p><h5>กลุ่มเรียน : cambodia กรุงพระนมเปน</h5></p>
+                                    <p><h5>เลขที่ 2</h5></p>
+                                    <p><h5>เบอร์โทร : เป็นความลับสุดยอด</h5></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+             <div class="col-12 col-md-4 col-xl-5">
+                    <div class="mt-1">
+                        <font size="+2" color="blue"> | สมาชิก</font>
+                    </div>
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <td>#</td>
+                                        <td>รูป</td>
+                                        <td>ชื่อสกุล</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="#" data-bs-toggle="modal" data-bs-target="#d1"><img src="img/d01.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>ปลา กระป๋อง</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d2"><img src="img/d02.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>ชานม ไข่มุก</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d3"><img src="img/d03.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>ไข่ดาว ไม่สุข</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d4"><img src="img/d04.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>โลตี ดิบ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d5"><img src="img/d05.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>แซวมอน ซูชิ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d6"><img src="img/d06.png" class="ronuded-circle" width="70"></a></td>
+                                        <td>เคื่องยน ดับ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d7"><img src="img/d07.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>ไก่ ย่าง</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d8"><img src="img/d08.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>ข่าวเหียน หมูปิ้ง</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d9"><img src="img/d09.png" class="ronuded-circle" width="70"></a></td>
+                                        <td>ขนมปัง ปิ้ง</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td><a href="" data-bs-toggle="modal" data-bs-target="#d10"><img src="img/d10.jpg" class="ronuded-circle" width="70"></a></td>
+                                        <td>ปลาหมึง ย่าง</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+         <!---------ข้อมูลสมาชิก----------->
+    <div class="modal fade" id="d1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d01.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  ปลา กระป๋อง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : โรงงานปลากระป๋อง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : โรงงาน</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 25</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d02.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  ชานม ไข่มุก</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ร้านชานม</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : ร้าน</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 32</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d03.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  : ไข่ดาว ไม่สุข </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ที่บ้าน</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์บ้าน</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 22</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d04.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  โลตี ดิบ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ร้านโลตี</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์ร้าน</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 27</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="d5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d05.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  แซวมอน ซูชิ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ร้านซูชิ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : ตลาด</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 45</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d06.png" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  เคื่องยน ดับ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : อู่ซ่อม</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์ร้าน</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 37</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d7">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d07.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  ไก่ ย่าง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ข้างทาง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์ส่วนตัว</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 37</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d8">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d08.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  ข่าวเหียน หมูปิ้ง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ข้างทาง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์ส่วนตัว</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 31</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d9">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d09.png" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  ขนมปัง ปิ้ง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : ร้านขนมปัง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์โทร</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 39</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d10">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d10.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล  :  ปลาหมึง ย่าง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : เรือประมง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ติดต่อได้ทาง : เบอร์โทร</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 39</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----New1----->
+    <div class="modal fade" id="new1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" clss="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c01.jpg" width="90%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| คัดแยกขยะ </h3></td>
+                    </tr>
+                    <tr>
+                        <td>การคัดแยกขยะอย่างถูกวิธีเป็นขั้นตอนสำคัญในการจัดการขยะเพื่อลดปริมาณขยะที่ต้องนำไปกำจัด และนำกลับไปใช้ประโยชน์ใหม่ให้ได้มากที่สุด โดยหลักการพื้นฐานที่ควรปฏิบัติคือการแยกขยะออกเป็น 4 ประเภทหลัก ตามสีของถังขยะและลักษณะของขยะ<br>
+                        <ul>
+ขยะอันตราย: ถ่านไฟฉาย, หลอดไฟ, แบตเตอรี่, กระป๋องสเปรย์                                <li>ขยะย่อยสลายได้ (ขยะเปียก): เศษอาหาร, ผัก, ใบไม้ </li>
+                                <li>ขยะรีไซเคิล: ขวดพลาสติก, กระดาษ, แก้ว, โลหะ</li>
+                                <li>ขยะทั่วไป: ถุงพลาสติกเปื้อน, โฟมเปื้อน, ซองขนม</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+     <!----New2----->
+    <div class="modal fade" id="new2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" clss="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c02.jpg" width="90%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| ขยะรีไซเคิล </h3></td>
+                    </tr>
+                    <tr>
+                        <td>ขยะรีไซเคิล คือ ขยะที่มีมูลค่าและสามารถนำไปแปรรูปเป็นผลิตภัณฑ์ใหม่ได้ ซึ่งจะทิ้งในถังสีเหลือง<br>
+                        <ul>
+                                <li>กระดาษ: กล่อง, สมุด, หนังสือพิมพ์</li>
+                                <li>พลาสติก: ขวดน้ำดื่ม, ขวดนม</li>
+                                <li>แก้ว: ขวดแก้ว</li>
+                                <li>โลหะ: กระป๋องอะลูมิเนียม, เศษเหล็ก</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----New3----->
+    <div class="modal fade" id="new3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" clss="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c03.jpg" width="90%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| การเก็บขยะ </h3></td>
+                    </tr>
+                    <tr>
+                        <td>คัดแยก: แยกขยะเป็น 4 ประเภท (ย่อยสลายได้, รีไซเคิล, ทั่วไป, อันตราย)<br>
+                        <ul>
+                                <li>บรรจุ:
+
+ขยะรีไซเคิล: ควรล้างและพับให้แบน
+
+ขยะทุกประเภท: ต้องบรรจุในถุงที่เหนียวและมัดปากถุงให้สนิททุกครั้ง เพื่อป้องกันกลิ่นและสัตว์พาหะนำโรค</li>
+                                <li>ความปลอดภัย: ขยะมีคมต้องห่อให้มิดชิดก่อนทิ้ง</li>
+                                <li>การทิ้ง: นำไปวางในจุดรับขยะตามวัน-เวลาที่เจ้าหน้าที่กำหนด และให้แยกประเภทให้ชัดเจนหากมีระบบรองรับ
+
+การเก็บขยะให้ถูกวิธีช่วยให้บ้านสะอาด ปลอดภัย และทำให้การจัดการขยะของชุมชนมีประสิทธิภาพ</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----New4----->
+    <div class="modal fade" id="new4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" clss="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c05.jpg" width="90%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| การทิ้งขยะ </h3></td>
+                    </tr>
+                    <tr>
+                        <td>การทิ้งขยะอย่างถูกต้องประกอบด้วย 4 ขั้นตอนหลัก<br>
+                        <ul>
+                                <li>1.แยกประเภท (Separate): แยกขยะเป็น 4 สี (เขียว=เปียก, เหลือง=รีไซเคิล, น้ำเงิน=ทั่วไป, แดง=อันตราย) โดยเฉพาะขยะรีไซเคิลต้องล้างให้สะอาดก่อน</li>
+                                <li>2.บรรจุและมัดปาก (Seal): ขยะทุกประเภทที่ใส่ถุงแล้ว ต้องมัดปากถุงให้แน่นสนิท ป้องกันกลิ่นและแมลง</li>
+                                <li>3.ทิ้งลงถัง (Dispose): นำไปทิ้งลงในถังขยะตามสี/ประเภทที่กำหนด</li>
+                                <li>4.ตามเวลา (Schedule): นำขยะออกมาทิ้งในจุดรวมขยะตามวันและเวลาที่ทางการกำหนด</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----New5----->
+    <div class="modal fade" id="new5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" clss="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c06.jpg" width="90%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| แยกขยะ </h3></td>
+                    </tr>
+                    <tr>
+                        <td>การแยกขยะช่วยให้การจัดการขยะมีประสิทธิภาพและนำกลับไปใช้ใหม่ได้ โดยแบ่งเป็น 4 ประเภทตามสีถัง<br>
+                        <ul>
+                                <li>1.ขยะย่อยสลายได้: เศษอาหาร, ผัก, ใบไม้</li>
+                                <li>2.ขยะรีไซเคิล: ขวดพลาสติก/แก้ว, กระดาษ, โลหะ</li>
+                                <li>3.ขยะทั่วไป: ถุงพลาสติกเปื้อน, ซองขนม, โฟมเปื้อน</li>
+                                <li>4.ขยะอันตราย: ถ่านไฟฉาย, หลอดไฟ, แบตเตอรี่, กระป๋องสเปรย์</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----New6----->
+    <div class="modal fade" id="new6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" clss="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c07.jpg" width="90%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>|ถังขยะ4ปรัเถท  </h3></td>
+                    </tr>
+                    <tr>
+                        <td>สรุปถังขยะ 4 ประเภท<br>
+                        <ul>
+                                <li>สีถัง,ประเภทขยะ,ตัวอย่าง,การจัดการ
+💚 เขียว,ย่อยสลายได้,"เศษอาหาร, ใบไม้",ทำปุ๋ย
+💛 เหลือง,รีไซเคิล,"พลาสติก, กระดาษ, แก้ว","ล้าง, ขาย/แปรรูป"
+💙 น้ำเงิน,ทั่วไป,"ถุงเปื้อน, ซองขนม",กำจัด/ฝังกลบ
+❤️ แดง,อันตราย,"แบตเตอรี่, หลอดไฟ",กำจัดอย่างปลอดภัย</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="bg-body-tertiary text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Copyright:
+    <a class="text-body">GGez</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
